@@ -1,0 +1,41 @@
+h1.post-title { font-size:180%; }
+.post table,.post tr, .post td, .post th  { border:0;  }
+.post-body, .post table tbody, .post table tbody tr { display:block; }
+
+table.product-description td { padding-bottom:15px; } 
+.product-thumbnail img { height:auto; width:125px; display:block; margin:0 5px 10px; text-align:center; } 
+.product-image td { display:block; }
+.product-image { float:left; display:inline-block; width: 45%; position:relative; height:480px; overflow:hidden; text-align:center; border:1px solid #f9f9f9; }
+.thumb_image .separator { width:300%; height:480px; position:absolute; left:-100%; top:0; display:block; } 
+.product-description{ float:right; display:inline-block; width: 50%; position:relative; bottom:0; }
+.product-thumbnail{ float:left; display:inline-block; width: 45%; }
+.product-image img {  width:auto; text-align:center; display:block; margin:0 auto; }
+.product-image img, table.product-image td .separator a { height:480px; }
+
+table.product-image td .separator a { position:absolute; top:0; left:-100%; margin:0; width:300%;  }
+.post table { margin-bottom:40px; }
+.label-description { display:block; }
+.product-description select { display:inline-block; width:auto; min-width:220px; }
+.product-description input { display:inline-block; width:auto; min-width:auto; text-align:center; }
+.product-detail {display:inline-block; float:right; width:50%; }
+.product-detail .nav-tabs &gt; li, .product-detail .nav-pills &gt; li, .tab-pane .product-thumbnail tbody tr td div.separator { text-transform:uppercase; font-weight:700; float:none; display:inline-block; *display:inline; zoom:1;  }
+.product-detail.product-tabs { clear:both; width:80%; display:block; float:none; margin:0 auto; }
+.product-tabs table { margin-top: 20px; }
+.product-thumbnail { width:100%; display:block; margin-left:auto; margin-right:auto; text-align:center; float:none; }
+.product-thumbnail tbody tr td { display:block; }
+.product-detail:after { display:table; content:&#39;&#39;; width:100%; *zoom:1; clear:both; height:1px; }
+.item_quantity { display:inline-block; }
+.item_add { display:inline-block; }
+
+.label { padding:6px 14px; font-size: 100%; }
+
+@media (max-width: 768px) { 
+table.product-description, .panel-group.product-detail, table.product-thumbnail, table.product-image { float:none; width:100%; display:block; min-height:60px; }
+.product-detail.product-tabs { width:100%; } 
+.product-detail.product-tabs table { float:none; } 
+.product-detail .nav-tabs &gt; li, .product-detail .nav-pills &gt; li { font-size:60%; }
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
